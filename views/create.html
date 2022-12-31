@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+<h1>Thêm mới sản phẩm </h1>
+<form action="/create" method="post">
+    <h3>Tên sản phẩm</h3>
+<input type="text" name="name" placeholder="name">
+    <br>
+    <h3>Giá</h3>
+<input type="text" name="price" placeholder="price">
+    <br>
+    <h3>Mô tả</h3>
+<input type="text" name="description" placeholder="description">
+    <br>
+    <h3>Thể loại</h3>
+    <br>
+
+    <select name="idCategory" >
+        {categories}
+    </select>
+
+    <button type="submit">Thêm mới</button>
+</form>
+</body>
+</html>

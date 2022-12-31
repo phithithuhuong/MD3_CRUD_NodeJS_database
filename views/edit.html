@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+<form action="/edit/{id}" method="post">
+    <h1>Nhập thông tin sửa đổi ?</h1>
+        <h3>Tên sản phẩm</h3>
+        <input type="text" name="name" placeholder="Name" value="{name}">
+        <br>
+        <h3>Giá</h3>
+        <input type="text" name="price" placeholder="Price" value="{price}">
+        <br>
+        <h3>Mô tả</h3>
+        <input type="text" name="description" placeholder="Description" value="{description}">
+        <br>
+        <br>
+        <button type="submit">Thêm</button>
+
+</form>
+</body>
+</html>
